@@ -388,3 +388,50 @@
         "supportReptileVersion": 2
     }
 ]
+[{
+        "name": "vmgirls", //采集源站标题
+        "key":"key", //标示KEY
+        "url": "https://www.vmgirls.com/", //域名，主要用于组合链接
+        "tags": [ //分类列表
+            {"name": "摄影写真", "url": "https://www.vmgirls.com/photography"},  //name:分类名称, url:分类地址
+        ], 
+        "pages": { //外层页面采集规则
+            "element": ".container li",  //元素selector
+            "name": { //名称采集规则
+                "element": "a", //元素selector
+                "attr": "title" //@text是取html元素的text值，非此值则取attr属性，如title
+            },
+            "url": { //图集采集规则
+                "element": "a", //元素selector
+                "attr": "href", //@text是取html元素的text值，非此值则取attr属性，如title
+                "needMerge": true, //是否需要合并地址
+            },
+            "nextPageUrlMode": { //下一页采集规则
+                "mode": "add", //模式：add(添加) replace(替换)
+                "addValue": "" //添加值
+            }, 
+            "lastPage": { //最后一页匹配规则，主要是用于统计总页码
+                "element": "#pages > a",  //元素selector
+                "minPageLength": 2, //最小采集的到页码数量才进行匹配，否则只执行当页
+                "attr": "@text", //@text是取html元素的text值，非此值则取attr属性，如title
+                "descIndex": 2, //页码的元素index，倒序
+                "isNeedSplit": false, //是否需要分割
+                "splits": [ ]
+            }
+        }, 
+        "imgs": { //内页图片采集规则
+            "element": "nc-light-gallery img", //元素selector
+            "attr":"href", //[v2] 图片的属性值
+            "singlePage":true, //[v2] 是否是单页面，即所有图片呈现在一个页面上
+            "urlNeedMerge": true, //[v2] 图片链接是否需要合并拼接
+            "imgUrlMode":{ //[v2]图片url变换规则，同上，此值与urlNeedMerge不冲突，urlNeedMerge优先执行
+                "mode":"replace",
+                "addValue": "",
+                "replaceSearchValue": "//", 
+                "replaceValue": "http://"
+            },
+            
+           
+        }, 
+        "supportReptileVersion": 1 //支持采集器的版本号
+ }]
