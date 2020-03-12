@@ -392,7 +392,7 @@
     {
         "name": "vmgirls", 
         "key":"vmgirls", 
-        "url": "https://www.vmgirls.com/", 
+        "url": "https://www.vmgirls.com", 
         "tags": [ 
             {"name": "摄影写真", "url": "https://www.vmgirls.com/photography"},  
         ], 
@@ -428,8 +428,8 @@
             "imgUrlMode":{
                 "mode":"replace",
                 "addValue": "",
-                "replaceSearchValue": "//", 
-                "replaceValue": "http://"
+                "replaceSearchValue": "", 
+                "replaceValue": ""
             },
             
            
