@@ -387,5 +387,51 @@
         }, 
         "supportReptileVersion": 2
     }
-    
+    {
+        "name": "vmgirls", 
+        "key":"vmgirls", 
+        "url": "https://www.vmgirls.com", 
+        "tags": [ 
+            {"name": "摄影写真", "url": "https://www.vmgirls.com/photography"},  
+        ], 
+        "pages": {
+            "element": ".container li",  
+            "name": { 
+                "element": "a", 
+                "attr": "title" 
+            },
+            "url": {
+                "element": "a", 
+                "attr": "href", 
+                "needMerge": true,
+            },
+            "nextPageUrlMode": { 
+                "mode": "add", 
+                "addValue": ""
+            }, 
+            "lastPage": { 
+                "element": "#pages > a",  
+                "minPageLength": 2, 
+                "attr": "@text", 
+                "descIndex": 2, 
+                "isNeedSplit": false, 
+                "splits": [ ]
+            }
+        }, 
+        "imgs": { 
+            "element": "nc-light-gallery img",
+            "attr":"href", 
+            "singlePage":true, 
+            "urlNeedMerge": true,
+            "imgUrlMode":{
+                "mode":"replace",
+                "addValue": "",
+                "replaceSearchValue": "", 
+                "replaceValue": ""
+            },
+            
+           
+        }, 
+        "supportReptileVersion": 2 
+ }
 ]
