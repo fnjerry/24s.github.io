@@ -388,7 +388,8 @@
         "supportReptileVersion": 2
     }
 ]
-[{
+[
+    {
         "name": "vmgirls", 
         "key":"vmgirls", 
         "url": "https://www.vmgirls.com/", 
@@ -434,4 +435,5 @@
            
         }, 
         "supportReptileVersion": 1 
- }]
+ }
+]
