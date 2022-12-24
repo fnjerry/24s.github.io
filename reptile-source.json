@@ -58,20 +58,20 @@
     {
         "name": "秀色女神", 
         "key":"xsnvshen",
-        "url": "https://www.xsnvshen.com", 
+        "url": "https://www.xsnvshen.co", 
         "tags": [
-            {"name": "高清推荐", "url": "https://www.xsnvshen.com/album/hd/?p={page}"},
-            {"name": "爱蜜社", "url": "https://www.xsnvshen.com/album/hd/1/?p={page}"},
-            {"name": "头条女神", "url": "https://www.xsnvshen.com/album/hd/89/?p={page}"},
-            {"name": "美媛馆", "url": "https://www.xsnvshen.com/album/hd/102/?p={page}"},
-            {"name": "DGC套图", "url": "https://www.xsnvshen.com/album/hd/111/?p={page}"},
-            {"name": "嗲囡囡", "url": "https://www.xsnvshen.com/album/hd/113/?p={page}"},
-            {"name": "波萝社", "url": "https://www.xsnvshen.com/album/hd/119/?p={page}"},
-            {"name": "魅妍社", "url": "https://www.xsnvshen.com/album/hd/122/?p={page}"},
-            {"name": "爱尤物", "url": "https://www.xsnvshen.com/album/hd/127/?p={page}"},
-            {"name": "秀人网", "url": "https://www.xsnvshen.com/album/hd/147/?p={page}"},
-            {"name": "尤果网", "url": "https://www.xsnvshen.com/album/hd/162/?p={page}"},
-            {"name": "推女神", "url": "https://www.xsnvshen.com/album/hd/192/?p={page}"}
+            {"name": "高清推荐", "url": "https://www.xsnvshen.co/album/hd/?p={page}"},
+            {"name": "爱蜜社", "url": "https://www.xsnvshen.co/album/hd/1/?p={page}"},
+            {"name": "头条女神", "url": "https://www.xsnvshen.co/album/hd/89/?p={page}"},
+            {"name": "美媛馆", "url": "https://www.xsnvshen.co/album/hd/102/?p={page}"},
+            {"name": "DGC套图", "url": "https://www.xsnvshen.co/album/hd/111/?p={page}"},
+            {"name": "嗲囡囡", "url": "https://www.xsnvshen.co/album/hd/113/?p={page}"},
+            {"name": "波萝社", "url": "https://www.xsnvshen.co/album/hd/119/?p={page}"},
+            {"name": "魅妍社", "url": "https://www.xsnvshen.co/album/hd/122/?p={page}"},
+            {"name": "爱尤物", "url": "https://www.xsnvshen.co/album/hd/127/?p={page}"},
+            {"name": "秀人网", "url": "https://www.xsnvshen.co/album/hd/147/?p={page}"},
+            {"name": "尤果网", "url": "https://www.xsnvshen.co/album/hd/162/?p={page}"},
+            {"name": "推女神", "url": "https://www.xsnvshen.co/album/hd/192/?p={page}"}
         ], 
         "pages": {
             "element": ".camWholeBoxUl li", 
